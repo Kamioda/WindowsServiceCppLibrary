@@ -4,7 +4,7 @@ Visual C++でWindowsサービスを作るためのライブラリです。関数
 ## 注意事項
 クラスタイプのものは、現在作成・修正を行っている最中ですので、安定したものをご利用になりたい方は、関数タイプをご利用下さい。
 
-## ライセンス(License)
+## ライセンス
 
 Copyright(c) 2017 AinoMegmi. All rights reserved
 
