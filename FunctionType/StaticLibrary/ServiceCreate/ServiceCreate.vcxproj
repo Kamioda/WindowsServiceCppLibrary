@@ -134,12 +134,18 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Code\Exception.hpp" />
+    <ClInclude Include="..\..\Code\ExceptionManager.hpp" />
+    <ClInclude Include="..\..\Code\KgWinException.hpp" />
     <ClInclude Include="..\..\Code\ServiceMain.hpp" />
+    <ClInclude Include="..\..\Code\BuildCoreMacro.hpp" />
+    <ClInclude Include="..\..\Code\StringCopy.hpp" />
     <ClInclude Include="..\..\Code\WinMainFunc.hpp" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Code\ExceptionManager.cpp" />
     <ClCompile Include="..\..\Code\ServiceMain.cpp" />
     <ClCompile Include="..\..\Code\WinMainFunc.cpp" />
     <ClCompile Include="stdafx.cpp">
