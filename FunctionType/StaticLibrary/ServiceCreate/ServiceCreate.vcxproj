@@ -145,6 +145,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Code\EnumClassOperator.hpp" />
     <ClInclude Include="..\..\Code\Exception.hpp" />
     <ClInclude Include="..\..\Code\ExceptionManager.hpp" />
     <ClInclude Include="..\..\Code\KgWinException.hpp" />
@@ -157,8 +158,10 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Code\Common.cpp" />
     <ClCompile Include="..\..\Code\ExceptionManager.cpp" />
     <ClCompile Include="..\..\Code\ServiceCreate.cpp" />
+    <ClCompile Include="..\..\Code\ServiceCreateEnum.cpp" />
     <ClCompile Include="..\..\Code\WinMainFunc.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

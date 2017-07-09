@@ -1,5 +1,6 @@
 #ifndef __COMMON_HPP__
 #define __COMMON_HPP__
+#include "BuildCoreMacro.hpp"
 typedef unsigned long DWORD;
 
 namespace WinSvcLib {
@@ -27,7 +28,7 @@ namespace WinSvcLib {
 		InteractiveProcess	= 0x00000100, // SERVICE_INTERACTIVE_PROCESS
 		TypeAll				= 0x0000013F  // SERVICE_TYPE_ALL
 	};
-	ServiceAccessType operator | (const ServiceAccessType A, const ServiceAccessType B);
-	ServiceType operator | (const ServiceType A, const ServiceType B);
+	WINSVCBUILD ServiceAccessType operator | (const ServiceAccessType A, const ServiceAccessType B);
+	WINSVCBUILD ServiceType operator | (const ServiceType A, const ServiceType B);
 }
 #endif
