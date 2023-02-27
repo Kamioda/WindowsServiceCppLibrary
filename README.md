@@ -28,7 +28,7 @@ There are two types of "Function type" and "Class type" in this.
 
 ## Announcing repository migration
 This repository is no longer under development.
-Please use [Windows service C++ format](https://github.com/Kamioda/WindowsServiceCppTemplate) from now on.
+Please use [Windows service C++ Template](https://github.com/Kamioda/WindowsServiceCppTemplate) from now on.
 
 ## License
 
