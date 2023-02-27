@@ -4,9 +4,13 @@ Visual C++でWindowsサービスを作るためのライブラリです。関数
 ## 注意事項
 クラスタイプのものは、現在作成・修正を行っている最中ですので、安定したものをご利用になりたい方は、関数タイプをご利用下さい。
 
+## リポジトリの移行について
+本リポジトリは開発を終了しております。
+今後は[WindowsサービスC++テンプレート](https://github.com/Kamioda/WindowsServiceCppTemplate)をご利用下さい。
+
 ## ライセンス
 
-Copyright(c) 2017 AinoMegmi. All rights reserved
+Copyright(c) 2017 Kamioda. All rights reserved
 
 以下に定める条件に従い、本ソフトウェアおよび関連文書のファイル（以下「ソフトウェア」）の複製を取得するすべての人に対し、ソフトウェアを無制限に扱うことを無償で許可します。これには、ソフトウェアの複製を使用、複写、変更、結合、掲載、頒布、サブライセンス、および/または販売する権利、およびソフトウェアを提供する相手に同じことを許可する権利も無制限に含まれます。
 
@@ -22,9 +26,13 @@ There are two types of "Function type" and "Class type" in this.
 ## Caution
 "Class type" is currently in the middle of making and modifying, so please use the function type if you would like to use stable ones.
 
+## Announcing repository migration
+This repository is no longer under development.
+Please use [Windows service C++ format](https://github.com/Kamioda/WindowsServiceCppTemplate) from now on.
+
 ## License
 
-Copyright 2017 AinoMegumi. All rights reserved
+Copyright 2017 Kamioda. All rights reserved
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
